@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox layout</title>
+    <script
+      src="https://kit.fontawesome.com/ccede76ea5.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .container {
+        border: 2px solid greenyellow;
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        align-items: center;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        border: 1px solid gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <span>
+        <a href="">Home<i class="fa-solid fa-house"></i></a>
+        <a href="">About</a>
+        <a href="">Like</a>
+        <a href="">Subscribe</a>
+      </span>
+      <span>
+        <a href=""><i class="fa-solid fa-house"></i></a>
+        <a href=""><i class="fa-solid fa-right-to-bracket"></i></a>
+      </span>
+    </div>
+    <h1>Flexbox layout</h1>
+    <div class="container">
+      <div class="box">BOX_1</div>
+      <div class="box">BOX_2</div>
+      <div class="box">BOX_3</div>
+      <div class="box">BOX_4</div>
+    </div>
+  </body>
+</html>
